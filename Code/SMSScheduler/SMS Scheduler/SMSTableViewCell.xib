@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="smsCell" rowHeight="112" id="KGk-i7-Jjw" customClass="SMSTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="782" height="112"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="782" height="111"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iv3-Bz-yYq">
+                        <rect key="frame" x="16" y="16" width="35" height="21"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="x9g-PV-riu"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Text" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rhm-BQ-AB9">
+                        <rect key="frame" x="16" y="74" width="750" height="21"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="Y6o-AU-QeN"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tsx-8I-hJ1">
+                        <rect key="frame" x="16" y="45" width="750" height="21"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="BDu-Qp-9tX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Not Sent" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TBt-Qr-bMO">
+                        <rect key="frame" x="88" y="16" width="678" height="21"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="Cim-m2-xX2"/>
+                            <constraint firstAttribute="height" constant="21" id="O2H-9B-0qr"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vbh-Zn-5ke">
+                        <rect key="frame" x="59" y="16" width="21" height="21"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mOS-oP-kFH">
+                                <rect key="frame" x="0.0" y="0.0" width="21" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="mOS-oP-kFH" secondAttribute="trailing" id="B1C-J5-cP4"/>
+                            <constraint firstAttribute="height" constant="21" id="K8I-ya-pIq"/>
+                            <constraint firstAttribute="width" constant="21" id="N70-2u-41j"/>
+                            <constraint firstItem="mOS-oP-kFH" firstAttribute="top" secondItem="vbh-Zn-5ke" secondAttribute="top" id="b8g-NK-diZ"/>
+                            <constraint firstItem="mOS-oP-kFH" firstAttribute="leading" secondItem="vbh-Zn-5ke" secondAttribute="leading" id="eUN-ug-iKa"/>
+                            <constraint firstAttribute="bottom" secondItem="mOS-oP-kFH" secondAttribute="bottom" id="rjt-uI-CQ2"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="TBt-Qr-bMO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="6Ie-mn-xeS"/>
+                    <constraint firstAttribute="trailing" secondItem="Tsx-8I-hJ1" secondAttribute="trailing" constant="16" id="8wR-AM-BYO"/>
+                    <constraint firstAttribute="trailing" secondItem="iv3-Bz-yYq" secondAttribute="trailing" constant="16" id="9ae-vm-wFt"/>
+                    <constraint firstItem="vbh-Zn-5ke" firstAttribute="centerY" secondItem="iv3-Bz-yYq" secondAttribute="centerY" id="CF3-Tc-WEM"/>
+                    <constraint firstAttribute="trailing" secondItem="rhm-BQ-AB9" secondAttribute="trailing" constant="16" id="GQP-HN-Taf"/>
+                    <constraint firstItem="rhm-BQ-AB9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Jod-Py-HCu"/>
+                    <constraint firstItem="Tsx-8I-hJ1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Pto-AC-uEm"/>
+                    <constraint firstItem="vbh-Zn-5ke" firstAttribute="leading" secondItem="iv3-Bz-yYq" secondAttribute="trailing" constant="8" id="UOj-CY-HnJ"/>
+                    <constraint firstItem="iv3-Bz-yYq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="WYI-4B-0wA"/>
+                    <constraint firstItem="Tsx-8I-hJ1" firstAttribute="top" secondItem="iv3-Bz-yYq" secondAttribute="bottom" constant="8" id="Wbr-Ob-Log"/>
+                    <constraint firstAttribute="trailing" secondItem="TBt-Qr-bMO" secondAttribute="trailing" constant="16" id="dKT-k2-PeL"/>
+                    <constraint firstItem="TBt-Qr-bMO" firstAttribute="leading" secondItem="vbh-Zn-5ke" secondAttribute="trailing" constant="8" id="ho0-St-VKh"/>
+                    <constraint firstItem="iv3-Bz-yYq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="iMR-Tj-JFK"/>
+                    <constraint firstItem="TBt-Qr-bMO" firstAttribute="leading" secondItem="iv3-Bz-yYq" secondAttribute="trailing" constant="58" id="tcg-TA-5OM"/>
+                    <constraint firstItem="rhm-BQ-AB9" firstAttribute="top" secondItem="Tsx-8I-hJ1" secondAttribute="bottom" constant="8" id="xmy-me-yGp"/>
+                    <constraint firstAttribute="bottom" secondItem="rhm-BQ-AB9" secondAttribute="bottom" constant="16" id="y5M-9x-XC1"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="9ae-vm-wFt"/>
+                        <exclude reference="tcg-TA-5OM"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="date" destination="iv3-Bz-yYq" id="iKK-rv-L2r"/>
+                <outlet property="messageText" destination="rhm-BQ-AB9" id="8Hd-kk-egY"/>
+                <outlet property="recepient" destination="Tsx-8I-hJ1" id="HeQ-EI-aqH"/>
+                <outlet property="repeatIcon" destination="vbh-Zn-5ke" id="TkO-C5-Q8k"/>
+                <outlet property="repeatLabel" destination="mOS-oP-kFH" id="m66-5R-WY7"/>
+                <outlet property="smsNotSentLabel" destination="TBt-Qr-bMO" id="4O5-ox-vu8"/>
+            </connections>
+            <point key="canvasLocation" x="472" y="593"/>
+        </tableViewCell>
+    </objects>
+</document>
